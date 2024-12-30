@@ -26,7 +26,34 @@ This project demonstrates the potential of AI in improving customer support effi
 
 ---
 
-### Prerequisites
+## Prerequisites
 - Python 3.8 or higher
 - GPU-enabled environment (optional for faster processing)
 - Required Python libraries: `pandas`, `llama-cpp-python`, `huggingface_hub`
+
+---
+
+## Usage
+
+1. **Load the Dataset**:
+   - Place your support ticket data in a CSV file (e.g., `Support_ticket_text_data.csv`).
+   - Ensure the file contains columns like `support_tick_id` and `support_ticket_text`.
+
+2. **Run the Notebook**:
+   - Open the `Gen_AI_NLP_Project_Support_Ticket_Categorization_Ajeet.ipynb` file in Jupyter Notebook or Google Colab.
+   - Follow the steps in the notebook to process the data and generate outputs.
+
+3. **Output**:
+   - The processed data, including ticket categories, priorities, ETAs, and responses, will be saved in a structured format (e.g., CSV).
+
+---
+
+## Acknowledgments
+
+- **Hugging Face** for providing access to pre-trained LLaMA models.
+- **Google Colab** for enabling GPU-based execution.
+- The open-source community for their contributions to NLP and AI research.
+
+---
+
+Feel free to explore, use, and contribute to this project to enhance customer support automation! 🚀
