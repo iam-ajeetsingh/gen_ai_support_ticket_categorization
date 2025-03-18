@@ -16,6 +16,12 @@ This project demonstrates the potential of AI in improving customer support effi
 
 ---
 
+## Preview
+### Support Ticket Categorization Output SnapShot:
+![Output_SnapShot](output_snapshot.png)
+
+---
+
 ## Features
 
 - **Automated Ticket Categorization**: Classifies tickets into categories such as "Technical Issue," "Hardware Issue," and "Data Recovery."
